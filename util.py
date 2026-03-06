@@ -1,5 +1,7 @@
 """Utility functions for the cicd-demo project."""
 
+def testing():
+    return False
 
 def add(a, b):
     """Return the sum of a and b."""
