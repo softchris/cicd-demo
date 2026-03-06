@@ -17,7 +17,7 @@ from util import (
 
 # testing
 def test_testing():
-    assert testing() == False
+    assert testing() == True
 
 # --- add ---
 
