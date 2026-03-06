@@ -1,4 +1,4 @@
-api_key = "test1234"
+api_key = "sk-proj-9f8a7c3b4d..."
 
 
 from fastapi import FastAPI
