@@ -1,5 +1,9 @@
-api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30"
-token = "ghp_1234567890abcdefghijklmnopqrstuvwxyz"
+import dotenv
+import os
+
+dotenv.load_dotenv()  # Load environment variables from .env file
+api_key = os.getenv("API_KEY")
+token = os.getenv("TOKEN")
 
 from fastapi import FastAPI
 

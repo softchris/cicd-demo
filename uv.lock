@@ -40,12 +40,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "fastapi" },
     { name = "pytest" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = ">=0.135.1" },
     { name = "pytest", specifier = ">=9.0.2" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
 [[package]]
