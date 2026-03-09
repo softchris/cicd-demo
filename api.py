@@ -5,9 +5,6 @@ dotenv.load_dotenv()  # Load environment variables from .env file
 api_key = os.getenv("API_KEY")
 token = os.getenv("TOKEN")
 
-print(f"API_KEY: {api_key}")
-print(f"TOKEN: {token}")
-
 from fastapi import FastAPI
 
 app = FastAPI()
