@@ -12,8 +12,12 @@ from util import (
     reverse_string,
     is_palindrome,
     flatten,
+    testing
 )
 
+# testing
+def test_testing():
+    assert testing() == False
 
 # --- add ---
 
